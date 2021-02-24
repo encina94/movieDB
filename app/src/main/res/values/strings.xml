@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title">TODAS</string>
+    <string name="button_movie_detail_subscribe">SUSCRIBIRME</string>
+    <string name="button_movie_detail_subscribed">SUSCRIPTO</string>
+    <string name="title_text_movie_detail">OVERVIEW</string>
+</resources>

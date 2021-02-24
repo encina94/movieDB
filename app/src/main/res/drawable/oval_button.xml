@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/button_disabled_backgroud">
+
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape>
+                    <corners android:radius="100dp"/>
+                    <padding
+                        android:bottom="13dp"
+                        android:left="41dp"
+                        android:right="41dp"
+                        android:top="14dp" />
+                    <solid android:color="@color/white" />
+                    <stroke android:width="2dp" android:color="@color/white"/>
+                </shape>
+            </item>
+
+
+            <item>
+                <shape>
+                    <corners android:radius="100dp" />
+                    <padding
+                        android:bottom="13dp"
+                        android:left="41dp"
+                        android:right="41dp"
+                        android:top="14dp" />
+                    <solid android:color="@android:color/transparent" />
+                    <stroke android:width="2dp" android:color="@color/white"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+
+
+</ripple>
